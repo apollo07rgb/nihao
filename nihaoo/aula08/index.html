@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    <Form>  = Defina um Formulario
+    <imput> = Campo de entrada ( Com varios tipos: txt, password, email, number, etc...)
+    <label> = Associa um texto descritivo a um <imput>
+    <label> = Associa um texto descritivo a um <imput>
+    <textearea> = Area de texto maior 
+    <select> e <option> = Criam meus suspensos (dropdowns)
+    <button> = Botão clicavel
+    <fieldset> e <legen> = Agrupam e noemiam partes de um formulario 
+    <datalist> = Listas de sugetões para <imput>
+    -->
+
+    <h1>Formlario Completo</h1>
+
+    <form action="/ enviar-dados" metheod="post">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="name" nome="nome"
+            placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" nome="email"
+            placeholder="seusenail@euamosenai.com.br"
+            required><br>
+            
+            <Label for="senha">Senha:</Label>
+            <input type="password" id="senha" name="senha"
+            required><br>
+
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" name="idade"
+            min="18" max="99"><br>
+
+            <label for="genero">genero</label>
+            <select name="genero" id="genero">
+                <option value="masculino">masculino </option>
+                <option value="feminino">feminino </option>
+                <option value="outro">outro </option>
+                <option value="prefiro nao dizer">prefiro nao dizer</option>
+            </select>
+
+
+
+
+            <fieldset>
+                <legend>Detalhes Adicionai</legend>
+
+                <label for="bio">sobre voce:</label>
+                <textarea id="bio" name="bio" rows="3"
+                placeholder="fale um pouco de voce...">
+                </textarea>
+
+                <label for="Linguagem">liguegem favorita:</label>
+                <input type="linguagem" name="Linguagem"
+                id="linguagem">
+                 <datalist>
+                    <option value="html">
+                    <option value="CSS">
+                    <option value="javascript">
+                    <option value="python">
+                    <option value="java">
+                </datalist><br>
+
+                <label for="contato">contato</label>
+                <address>
+                    email: lkzin@gamil.com
+                    telefone: (11)916583006
+                </address>
+
+            <fieldset>
+                <legend>Outras Informações</legend>
+
+            </fieldset>
+                <details>
+                    <legend>Outras Informações</legend>
+                    <summary>Oque é um formulario HTML</summary>
+                    <P>Um formulário HTML é utilizado para coletar informações dos usuários e enviá-las para um servidor.</P>
+                </details>
+
+                <p> O campo <mark>senha</mark> precisa ter pelo menos 6 caracteres</p>
+                <label for="hora-cadastro">horario preferido para contato:</label>
+                <input type="time" id="hora-cadastro" name="hora-cadastro">
+            </fieldset>
+            <button type="submit">Cadastro</button>
+            
+                
+                
+
+                
+
+
+            
+            </fieldset>
+                
+
+          
+        </fieldset>
+            
+
+
+    </form>
+
+
+
+
+
+
+</body>
+</html>
