@@ -1,0 +1,47 @@
+body {
+    /* Nome da cor */
+    /* background-color: red; */
+
+    /* rgb */
+    /* background-color: rgb(255, 72, 133); */
+
+    background-color: #0097E6 
+
+}
+
+ h1 {
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+ }
+
+h2 {
+    color: rgb(7, 126, 236);
+    font-size: 5vw;
+}
+p {
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times serif 
+}
+
+span {
+    font-size: 2em;
+    color: purple;
+}
+
+/* ------------------------------------------------------ */
+/* PX (pixels) é uma unidade fixa. O tamanho sempre será 
+o mesmo, independente do tamnho da tela */
+
+/* 2EM - o dobro do tamnho padrão, significa que ele é o 
+multiplicador do tamnho base */
+/*2EM - O dobro 20% maior que o padrão
+/*
+Controla a grossura (negrito) do texto.
+100 = Super fino
+400 = Normal
+700 = Negrito
+/* ------------------------------------------------------ */
+
+
+

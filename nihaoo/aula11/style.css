@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(201, 198, 67);
+}
+/* SELETORES */
+
+/* Propia tag HTML */
+/* h1, p, a... */
+
+/* Id */
+/* Atributo HTMl que adiciona um identificador UNICO na tag. Esse identificador pode ser ultilizado no CSS 
+para selecionarmos o elemento: */
+
+#paragrafo1 {
+    color: rgb(104, 143, 12);
+    font-family: "Babas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* CLASSES*/
+/* Atributos HTMl que adiciona um identificador reutilizavel ma TAG.
+Esse identificador pode ser ultilizado no CSS para selecionarmos o(s) elemento(s):*/
+
+.titulo {
+    color: blanchedalmond;
+}
