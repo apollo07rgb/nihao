@@ -1,0 +1,30 @@
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(226, 196, 160);
+    border: 5px solid rgb(209, 207, 64);
+    padding: 70px;
+     margin: 100;
+    padding-top: 10px; /*EM CIMA*/
+    padding-right: 40px; /*SO NA DIREITA*/
+    padding-left:  25px;/*SO NA ESQUERDA*/
+    padding-bottom: 20px;
+}
+
+
+.box2 {
+    /* padding: 20px apçica em todos os lados */
+    width: 200px;
+    height: 100px;
+    background-color: rgb(226, 196, 160);
+    border: 5px solid rgb(209, 207, 64);
+    border-radius: 20px;
+    padding: 100px;
+    margin: 100;
+    padding-top: 10px; /*EM CIMA*/
+    padding-right: 40px; /*SO NA DIREITA*/
+    padding-left: 25px;/*SO NA ESQUERDA*/
+    padding-bottom: 20px;
+
+
+}
